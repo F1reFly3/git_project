@@ -1,0 +1,212 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+
+#register .container #register-row #register-column #register-box {
+
+    margin-top: 5px;
+    max-width: 600px;
+    height: 560px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+
+#register .container #register-row #register-column #register-box #register-form {
+    padding: 10px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.form-popup {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+.col-1-3 {
+    width: 33.3333333333%;
+    float: left;
+}
+
+.col-1-4 {
+    width: 25%;
+    float: left;
+}
+
+.col-2-3 {
+    width: 66.6666666667%;
+    float: left;
+}
+
+.container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+div.middle-chat {
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 35%;
+
+}
+
+.middle-bis-chat {
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 50%;
+    left: 55%;
+    margin: -100px 0 0 -150px;
+}
+
+.always-middle-chat {
+    border: solid 1px grey;
+    position: absolute;
+    top: 50px;
+    margin-left: 25%;
+    height: 270px;
+    width: 50%;
+
+}
+
+.textbox-chat {
+    position: absolute;
+    border: solid 1px grey;
+    top: 325px;
+    height: 40px;
+    width: 46%;
+    resize: none;
+    right: 28%;
+}
+
+.btn-chat {
+    border: solid 1px grey;
+    position: absolute;
+    top: 425px;
+    right: 24%;
+    height: 40px;
+    width: 4%;
+    margin: -100px 0 0 -100px;
+}
+
+.hero-image {
+    background-image: url(/img/owl.png); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.my-header-text {
+    color: orange;
+}
+
+.text-my-a {
+    color: mediumvioletred;
+}
+
+.text-my-b {
+    color: deepskyblue;
+}
+
+.text-my-c {
+    color: mediumseagreen;
+}
+
+.text-my-d {
+    color: darkorange;
+}
