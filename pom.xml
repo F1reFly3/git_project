@@ -26,7 +26,7 @@
         <powermock.module.junit4.version>1.7.4</powermock.module.junit4.version>
         <powermock.api.mockito.version>1.7.4</powermock.api.mockito.version>
         <log4j.version>1.2.17</log4j.version>
-        <mysql.connector.version>8.0.16</mysql.connector.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
         <dbcp2.version>2.5.0</dbcp2.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
